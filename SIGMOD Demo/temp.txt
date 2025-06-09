@@ -1,0 +1,31 @@
+Number of partitions: 6
+Number of attributes used in split: 2
+Number of transformation attributes: 1
+Max number of conditions in a partition: 3
+Fraction of tuples transformed: 1.0
+---------------------------------------------------------------------------
+
+Partition cardinality: 4
+Partition condition: Division == DS Health Services AND Education == Bachelor
+Partition transformation function: Base_Bonus = 14.92 × Other_Bonus + 938.48
+
+Partition cardinality: 2
+Partition condition: Division == DS Health Services AND Education != Bachelor
+Partition transformation function: Base_Bonus = 14.9 × Other_Bonus + 1242.35
+
+Partition cardinality: 4
+Partition condition: Division != DS Health Services AND Division == DS MCDC Custody and Security AND Education == Master
+Partition transformation function: Base_Bonus = 26.96 × Other_Bonus + 332903.68
+
+Partition cardinality: 2
+Partition condition: Division != DS Health Services AND Division == DS MCDC Custody and Security AND Education != Master
+Partition transformation function: Base_Bonus = -5.71 × Other_Bonus + 121047.28
+
+Partition cardinality: 8
+Partition condition: Division != DS Health Services AND Division != DS MCDC Custody and Security AND Division == Services to End and Prevent Homelessness Division
+Partition transformation function: Base_Bonus = 14.9 × Other_Bonus + 1242.35
+
+Partition cardinality: 980
+Partition condition: Division != DS Health Services AND Division != DS MCDC Custody and Security AND Division != Services to End and Prevent Homelessness Division
+Partition transformation function: Base_Bonus = 82.51 × Other_Bonus - 16995.42
+
