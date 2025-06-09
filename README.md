@@ -2,13 +2,7 @@
 
 1. **Make sure you have `python3` and `pip3` installed on your device.**
 
-2. **Navigate to the project directory:** 
-
-	```
-	cd SIGMOD demo
-	```
-
-2. **Create and activate a new virtual environment and updrade pip:**
+2. **Create and activate a new virtual environment and upgrade pip:**
 
 	```
 	python3.9 -m venv .venv
@@ -27,4 +21,6 @@
 	```
 	streamlit run charles.py
 	```
+	
+5. **Point to the two files `source.csv` and `target.csv` located in the `datasets` folder in the demo. Or use your own datasets!**
 
